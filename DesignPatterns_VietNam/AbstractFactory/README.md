@@ -2,7 +2,7 @@
 Ý tưởng là: Trang trí giả lập cho một cửa hàng. Chúng ta cần tạo một vài class đại diện:
 	- một vài nhóm sản phẩm: ghế + sofa + Bàn coffee 
     - một vài biến thể của sản phẩm trên như: Modern, Victorian,ArtDeco
-    ![File](file.png) 
+    ![docs/File](file.png) 
     - Bây giờ chúng ta cần tạo ra các đồ dùng đó trong chương trình của chúng ta và các sản phẩm cùng loại biến thể phải đi cùng nhau. Vì khách hàng sẽ cảm thấy điên dồ, khi chúng ta cho một chiếc ghế victorian đi với cá sofa Art Deco![2](2.png)  
     - Suy nghĩ xem, chúng ta sẽ không thể thay đổi code, khi thêm một sản phẩm mới hoặc một loại biến thể, và không muốn thay đổi core code.
     - Để làm vậy có cách nào không nhỉ? Đọc tiếp nhá........
@@ -17,19 +17,19 @@
     - OOP Interface
     - Solid
     - Strategy Design Pattern
-![Chair Implement](ChairImplement.png)
+![docs/Chair Implement](ChairImplement.png)
 
 * Tiếp tục nào bây giờ ta đến với món chính Abstract Factory một interface với một danh sách các hàm
 để tạo các thành phần của bộ sản phẩm. Các method sẽ trả về các đối tượng trừu tượng(interface) của sản phẩm(tại sao hay đọc abstract)
 * Bây giờ đến lúc tạo các sản phẩm biến thể như nào? Ta có thể thấy  Abstract Factory đã tạo ra các sản phẩm trừu tượng riêng biệt. Bây giờ chúng ta thực hiện
 Abstract Factory(implement interface) để có thể tạo ra các sản phẩm trong một class Factory. nó sẽ trả lại bạn một lớp có bộ sản phẩm tương ứng
-![Factory](factory.png)
+![docs/Factory](factory.png)
 * 
 ## Ví dụ
 * Một ví dụ khá hay ho đó là thành phần cross-platform UI mẫu này có thể sử dụng để tạo ra
 * một vài loại UI. Ví dụ : Mac,Win,..sao cho tất cả các thành phần trong UI phù hợp với hệ điều hành đó
-* ![F](f.png)
-![U I](UI.png)
+* ![docs/F](f.png)
+![docs/U I](UI.png)
 - Code thì ở trong nhé các bạn có thể tham khảo
 
 ## Khả năng ứng dụng
