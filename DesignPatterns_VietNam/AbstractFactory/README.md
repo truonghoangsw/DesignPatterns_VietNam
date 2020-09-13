@@ -3,7 +3,8 @@
 	- một vài nhóm sản phẩm: ghế + sofa + Bàn coffee 
     - một vài biến thể của sản phẩm trên như: Modern, Victorian,ArtDeco
     ![File](docs/file.png) 
-    - Bây giờ chúng ta cần tạo ra các đồ dùng đó trong chương trình của chúng ta và các sản phẩm cùng loại biến thể phải đi cùng nhau. Vì khách hàng sẽ cảm thấy điên dồ, khi chúng ta cho một chiếc ghế victorian đi với cá sofa Art Deco![2](docs/2.png)  
+    - Bây giờ chúng ta cần tạo ra các đồ dùng đó trong chương trình của chúng ta và các sản phẩm cùng loại biến thể phải đi cùng nhau. Vì khách hàng sẽ cảm thấy điên rồ, khi chúng ta cho một chiếc ghế victorian đi với cá sofa Art Deco
+![2](docs/2.png)  
     - Suy nghĩ xem, chúng ta sẽ không thể thay đổi code, khi thêm một sản phẩm mới hoặc một loại biến thể, và không muốn thay đổi core code.
     - Để làm vậy có cách nào không nhỉ? Đọc tiếp nhá........
 
