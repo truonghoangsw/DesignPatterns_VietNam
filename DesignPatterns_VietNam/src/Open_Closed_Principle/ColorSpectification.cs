@@ -6,7 +6,7 @@
         {
             this.color = color;
         }
-
+        
         private Color color { get; set; }
         public bool IsSatisfied(Product t)
         {
