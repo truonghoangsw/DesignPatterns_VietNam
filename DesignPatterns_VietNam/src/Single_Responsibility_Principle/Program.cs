@@ -1,9 +1,5 @@
-﻿using System;
-using System.Diagnostics;
-
-namespace Single_Responsibility_Principle
+﻿namespace Single_Responsibility_Principle
 {
-
     internal class Program
     {
         private static void Main(string[] args)
@@ -14,7 +10,7 @@ namespace Single_Responsibility_Principle
 
             var p = new Persistence();
             string fileName = @"C:\temp\journal.txt";
-            p.SaveToFile(j,fileName,true);
+            p.SaveToFile(j, fileName, true);
         }
     }
 }

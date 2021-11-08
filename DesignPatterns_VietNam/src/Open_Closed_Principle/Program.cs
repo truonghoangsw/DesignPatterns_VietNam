@@ -26,7 +26,6 @@ namespace Open_Closed_Principle
         public string Name { get; set; }
     }
 
-
     internal class Program
     {
         private static void Main(string[] args)

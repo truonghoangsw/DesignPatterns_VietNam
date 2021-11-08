@@ -24,13 +24,13 @@ namespace Single_Responsibility_Principle
         {
             return string.Join(Environment.NewLine, entries);
         }
-
     }
+
     public class Persistence
     {
-        public void SaveToFile(Journal j, string fileName,bool overwirte = false)
+        public void SaveToFile(Journal j, string fileName, bool overwirte = false)
         {
-            if(overwirte || !File.Exists(fileName))
+            if (overwirte || !File.Exists(fileName))
                 File.WriteAllText(fileName, j.ToString());
         }
     }

@@ -27,7 +27,6 @@ namespace Interface_Segregation_Principle
 
     public interface IMultiFunctionMachine : IScanner, IPrinter
     {
-
     }
 
     public class MultiFunctionMachine : IMultiFunctionMachine
@@ -51,6 +50,7 @@ namespace Interface_Segregation_Principle
             Printer.Print(t);
         }
     }
+
     public class MutliFunctionPrinter : IMachine
     {
         public void Fax(Document d)

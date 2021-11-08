@@ -26,20 +26,22 @@ namespace Single_Responsibility_Principle
         }
 
         #region mistake Single_Responsibility_Principle
+
         public void Save(string filename)
         {
             File.WriteAllText(filename, ToString());
         }
+
         private static Journal_Befor_refactor Load(string fileName)
         {
             return null;
         }
+
         public void Load(Uri uri)
         {
-
             throw new NotImplementedException();
         }
-        #endregion
 
+        #endregion mistake Single_Responsibility_Principle
     }
 }
