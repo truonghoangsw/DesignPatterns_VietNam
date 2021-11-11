@@ -70,9 +70,9 @@ namespace BuilderPatterns
             return _root.ToString();
         }
     }
-    class Program
+    class Builder_1
     {
-        static void Main(string[] args)
+        static void Main_2(string[] args)
         {
             var builder = new HtmlBuilder("ul");
             builder.AddChild("li", "hello");
