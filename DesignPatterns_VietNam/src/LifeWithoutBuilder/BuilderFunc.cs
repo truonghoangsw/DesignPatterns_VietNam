@@ -17,9 +17,9 @@ namespace BuilderPatterns
             return this;
         }
 
-        public Person Build()
+        public Persons Build()
         {
-            var p = new Person();
+            var p = new Persons();
             Actions.ForEach(a => a(p));
             return p;
         }
